@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .main{
+    height: 400px;
+} */
+
+/* .rectangel{
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+} */
+
+/* .test{
+    width: 100px;
+    height: 100px;
+    border: 1px solid green;
+    margin: 70px;
+}
+
+.rectangle{
+    max-width: 700px;
+    width: 400px;
+    height: 400px;
+    padding: 20px 30px 40px 50px;
+    background-color: aqua;
+    border:3px solid red;
+    border-bottom: hidden;
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    margin:50px;
+} */
+
+.main{
+    margin: 100px;
+    width: 500px;
+    height: 200px;
+    border: 1px solid #ddd;
+}
+
+.main:hover{
+    box-shadow: 2px 2px 8px #aaa;
+}
+
+.main p{
+    text-align: justify;
+    color:red;
+    direction: rtl;
+    /* text-decoration: line-through; */
+    /* text-transform:capitalize; */
+    /* letter-spacing: -3px; */
+    /* word-spacing: -10px; */
+    /* line-height: 0; */
+}
+
+.main a{
+    text-decoration: none;
+}
+
+.main h1{
+    margin: 20px;
+    text-shadow: 2px 2px 5px red;
+}
+
+@font-face{
+    font-family: Amydor;
+    src: url(../fonts/Amydor.otf)
+}
+
+p{
+    margin: 50px;
+    /* font-family:  Amydor; */
+    font-family: 'MuseoModerno', cursive;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.fa-facebook-square{
+    font-size: 60px;
+    color: blue;
+}
+
+.fa-instagram{
+    font-size: 60px;
+    color: chocolate;
+}
